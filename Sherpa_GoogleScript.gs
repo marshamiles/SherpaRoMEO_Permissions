@@ -22,7 +22,7 @@ Watch a quick installation video at http://youtu.be/ZMyKVHM5nOc
  
 (1) Perform an affiliation search in a large bibliographic database, such as Scopus or Web of Knowledge. 
 Include the ISSN metadata in the database export, since the function depends on the ISSN to work. Export this search to a .csv file.
-(2) Import the .csv into a Google Spreadsheet with at a minimum, columns for the following: ISSN, pubpdf, finaldraft, embargo, checkOAMandate. 
+(2) Import the .csv into a Google Spreadsheet with at a minimum, columns for the following: ISSN, Article Version, Embargo, Conditions, Copyright links, sherpa link. 
 Other details like Journal title, Article title, and Author are optional.
 (3) CRITICAL: Select the ISSN column, select Format -> Number -> Plain Text. Or else the script won't work!
 (4) Go to Script -> Script Editor

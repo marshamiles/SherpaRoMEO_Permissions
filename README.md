@@ -9,9 +9,10 @@ The project uses a Google Apps Script that utilizes the Sherpa/RoMEO API to retr
 5. Click File -> Save, enter the project name "Sherpa/RoMEO Permissions" and close the Script editor browser tab. 
 6. Click the browser refresh button to add the SherpaRoMEO menu to your Google sheet.
 7. Click on SherpaRoMEO and select "Create Column Headers." 
-8.1 If prompted to authorize, click continue. Then, click on your Google account.
-8.2 If prompted that the app isn't verified, click Advanced, scroll down, and click on "Go to Sherpa/RoMEO Permissions (unsafe)"
-8.3 If prompted to give the project access to your Google account, scroll down and click "Allow"
+8. Authroize Script
+   1. If prompted to authorize, click continue. Then, click on your Google account.
+   2. If prompted that the app isn't verified, click Advanced, scroll down, and click on "Go to Sherpa/RoMEO Permissions (unsafe)"
+   3. If prompted to give the project access to your Google account, scroll down and click "Allow"
 9. Add ISSNs to the ISSN column. Click on SherpaRoMEO and select "Process ISSNs."
 
 Step 8 is only required once during the initial setup.

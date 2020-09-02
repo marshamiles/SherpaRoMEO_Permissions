@@ -1,6 +1,8 @@
-# Sherpa/RoMEO Permissions
+# Sherpa/RoMEO Permissions*
 ## Description:
-The project uses a Google Apps Script that utilizes the Sherpa/RoMEO API* to retrieve journal permissions data into a Google sheet. The goal of the script is to search batches of journal ISSNs and identify permissions, conditions, and restrictions for submitting published scholarly research to an institutional repository.
+The project uses a Google Apps Script that utilizes the Sherpa/RoMEO API to retrieve journal permissions data into a Google sheet. The goal of the script is to search batches of journal ISSNs and identify permissions, conditions, and restrictions for submitting published scholarly research to an institutional repository.
+
+***This project uses the old Sherpa/RoMEO API which is being retired. I am working on re-writing the script to use the new API.**
 
 1. Register for a Sherpa/RoMEO API Key: http://www.sherpa.ac.uk/romeo/apiregistry.php 
 2. Create a Google sheet, click on the Tools menu, and select "Script editor." 
@@ -16,8 +18,6 @@ The project uses a Google Apps Script that utilizes the Sherpa/RoMEO API* to ret
 9. Add ISSNs to the ISSN column. Click on SherpaRoMEO and select "Process ISSNs."
 
 Step 8 is only required once during the initial setup.
-
-*This project uses the old API which is still operating for a limited time to give people a chance to catch up. I am working on re-writing the script to use the new API.
 
 ## License
 The content of this project is licensed under the [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/).
